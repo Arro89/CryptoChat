@@ -255,9 +255,9 @@ public class Server implements Runnable {
      * Connects to the database by creating a database connection.
      */
     private void connectToDatabase() {
-        String databaseName = "db_20481428";
-        String username = "usr_20481428"; //removed to not share username+password to db
-        String password = "481428"; //removed to not share username+password to db
+        String databaseName = "";
+        String username = ""; //removed to not share username+password to db
+        String password = ""; //removed to not share username+password to db
         String computerName = "atlas.dsv.su.se";
 
         try {
